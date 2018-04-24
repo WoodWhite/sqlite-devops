@@ -1,4 +1,6 @@
 SQLite
+
+[官网](https://www.sqlite.org/docs.html)
 ##### 介绍
 ##### 安装
 ##### 配置
@@ -13,7 +15,7 @@ CPU耗时: .timer on
 查询数据库: .database
 查询表: .table
 创建数据库文件: sqlite3 test.db
-创建表: CREATE TABLE user (name varchar(64), sex varchar(16), age int(8));
+创建表: CREATE TABLE user (id integer primary key autoincrement,name varchar(64), sex varchar(16), age int(8));
 修改表:
 增加记录:
 删除记录:
